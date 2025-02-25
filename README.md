@@ -32,3 +32,6 @@ Após a instalação, inicie o servidor de desenvolvimento:
 
 ### 4. Testar no seu navegador
 Após iniciar o projeto com o comando `./mvnw spring-boot:run`, abra o `localhost:8080/api/hello` e veja se está funcionando corretamente.
+
+
+Obs: você também pode rodar o projeto apenas clicando no botão na sua IDE. Essas opções é pra quem quer rodar por linha de comando :)
