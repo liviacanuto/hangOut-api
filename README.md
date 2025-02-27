@@ -1,6 +1,6 @@
 # HangOut
 
-Pegue uma tarefa [clicando aqui](https://github.com/users/liviacanuto/projects/3/views/1)
+Pegue uma tarefa [clicando aqui](https://github.com/users/liviacanuto/projects/2/views/1)
 
 ### 1. Clonar o repositório
 Primeiro, clone este repositório para sua máquina local:
