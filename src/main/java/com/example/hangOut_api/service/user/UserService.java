@@ -20,6 +20,10 @@ public class UserService implements IUserService {
 
     @Override
     public UserResponseDTO addUser(@Valid UserRegisterDTO userRegisterDTO) {
+        if (this.userRepository.existsByEmail(userRegisterDTO.email())) {
+            throw new AlreadyExistsException("Email already exists: " + userRegisterDTO.email());
+        }
+
         User user = new User(userRegisterDTO);
         user.setPassword(this.passwordService.encrypt(userRegisterDTO.password()));
 
